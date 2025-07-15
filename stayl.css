@@ -1,0 +1,41 @@
+html{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ background-color: black;
+ color :white ;
+ border: 2 px;
+ text-align: center;
+}
+#lion {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    transition: all 0.7s ease;
+}
+
+#lion:hover {
+    border-radius: 100%;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+h1:hover {
+    font-size: 4px;
+    transition: transform 0.5s ease;  /* מוסיף אנימציה חלקה של 0.5 שניות */
+}
+ul {
+    display: flex;         /* הופך את ה-ul ל-flex container */
+    flex-direction: column; /* מסדר את האלמנטים בצורה אנכית */
+    align-items: center;    /* ממרכז את האלמנטים בתוך ה-ul */
+    list-style: none;       /* מסיר את הסימנים המוגדרים בברירת מחדל (כמו נקודות) */
+    padding: 0;  
+    text-align: white;           /* מסיר את הריווחים סביב */
+}
+
+li {
+    display: flex;          /* הופך את ה-li ל-flex container */
+    align-items: center;    /* ממרכז את התוכן אנכית */
+    color: white;
+}
